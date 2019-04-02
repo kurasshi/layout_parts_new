@@ -17,16 +17,16 @@
   padding: 10px;
 }
 
-thead tr, th{
+.q3__table th{
   background-color: #2244aa;
   color: #fff;
 }
 
-tr:nth-child(even){
+.q3__table tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
-tbody tr:last-child{
+.q3__table tbody tr:last-child{
   border-bottom: dashed 2px #000;
 }
 /* 回答はここに書いてね */

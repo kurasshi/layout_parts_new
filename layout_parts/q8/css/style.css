@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+/* 送信ボタン色反転適用 */
 /* ボタンここから */
 .small{
   border-radius: 3px;
@@ -307,6 +307,11 @@
 
 .textarea_sentence:focus{
   box-shadow: 0 0 8px #00BCD4;
+}
+
+.submit_button:active{
+  background-color: #fff;
+  color: #00BCD4;
 }
 
 /*

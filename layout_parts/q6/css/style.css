@@ -2,11 +2,6 @@
 
 /* 回答はここに書いてね */
 
-:root{
-  --main-bg-color :#e6f2ff;
-}
-
-
 .q6__box__ta{
   text-align: center;
 }
@@ -14,13 +9,13 @@
 .q6__box__ta1{
   display: inline-block;
   width: 90px;
-  background-color: var(--main-bg-color);
+  background-color: #E6F2FF;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 .q6__box__mg{
-  background-color: var(--main-bg-color);
+  background-color: #E6F2FF;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -29,6 +24,7 @@
 
 .q6__table__parent{
   display: table;
+  text-align: center;
 }
 
 .q6__table__child{
@@ -39,7 +35,7 @@
 .q6__table__child1{
   background-color: #fff;
   padding: 10px;
-  margin: 0 125px;
+  display: inline-block;
 }
 
 .q6__justify__parent{
