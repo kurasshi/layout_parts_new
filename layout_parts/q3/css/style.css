@@ -1,5 +1,32 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q3{
+  width:auto;
+}
 
+.q3__table{
+  table-layout: fixed;
+  text-align: center;
+  width: 100%;
+  line-height: 22px;
+}
+
+.q3__table th, .q3__table td{
+  border: solid 1px #dedede;
+  padding: 10px;
+}
+
+thead tr, th{
+  background-color: #2244aa;
+  color: #fff;
+}
+
+tr:nth-child(even){
+  background-color: #ecf1f2;
+}
+
+tbody tr:last-child{
+  border-bottom: dashed 2px #000;
+}
 /* 回答はここに書いてね */
